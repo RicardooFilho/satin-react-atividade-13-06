@@ -1,4 +1,3 @@
-import Contador from "../../components/Contador/Contador"
 
 export default function Todo() {
   return (

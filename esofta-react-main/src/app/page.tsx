@@ -2,6 +2,7 @@
 import React from "react"
 import Header from "@/components/Header/Header";
 import CardSection from "@/components/CardSection/CardSection";
+import Image from "next/image";
 
 export default function Home() {
 
@@ -11,11 +12,11 @@ export default function Home() {
           <main>
               <CardSection titulo={"Informações sobre o Squirtle"}>
                   <div>
-                      <img
+                      <Image
                           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
                           alt="Squirtle 1"
                       />
-                      <img
+                      <Image
                           src="https://archives.bulbagarden.net/media/upload/thumb/7/79/Squirtle_SSBU.png/200px-Squirtle_SSBU.png"
                           alt="Squirtle 2"
                       />
@@ -90,7 +91,7 @@ export default function Home() {
                       <li>
                           <a href="./pages/pokemon/index.html?name=squirtle">
                               <figure>
-                                  <img
+                                  <Image
                                       src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png"
                                       alt="Squirtle"
                                   />
@@ -102,7 +103,7 @@ export default function Home() {
                       <li>
                           <a href="./pages/pokemon/index.html?name=wartortle">
                               <figure>
-                                  <img
+                                  <Image
                                       src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png"
                                       alt="Wartortle"
                                   />
@@ -114,7 +115,7 @@ export default function Home() {
                       <li>
                           <a href="./pages/pokemon/index.html?name=blastoise">
                               <figure>
-                                  <img
+                                  <Image
                                       src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png"
                                       alt="Blastoise"
                                   />
